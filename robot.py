@@ -17,7 +17,7 @@ MAX_PULSE_WIDTH = 2350
 FREQUENCY = 50
 
 #Instancio el Driver del controlador de servos
-#Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver()  esta queda asi selecionada y la linea de abajo es su traduccion a pyton
+#Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver()  
 pwm = adafruit_pca9685.PCA9685(i2c)
 kit = ServoKit(channels=16)
 
